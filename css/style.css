@@ -14,6 +14,14 @@ h2,
 h3 {
   margin: 0;
 }
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
 
 a {
   text-decoration: none;
@@ -25,17 +33,25 @@ ul {
 
 header {
   background-color: #232323;
-  min-width: 180px;
+  min-height: 180px;
   border-bottom: 1px solid #d3d3d3;
+  box-shadow: 0 10px 25px rgba(229, 235, 240, 0.2);
+  display: flex; /* posicona lado a lado os elementos */
+  align-items: center;
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
 }
 
 section {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  display: flex; /* posicona lado a lado os elementos */
+  display: flex;
   align-items: center;
-  justify-content: space-between;
-
+  justify-content: center;
 }
 
 .brand {
@@ -50,16 +66,29 @@ section {
 }
 .brand div {
   font-size: 32px;
+  justify-content: center;
 }
 .brand span {
   display: block; /*para alinhar abaixo */
   font-size: 16px;
   color: #939393;
 }
-.nav a {
+nav a {
   color: #fff;
   font-size: 18px;
   font-weight: 500;
   padding: 15px;
   display: inline-block; /*uma linha posicionada dentro um bloco */
+}
+main {
+  display: flex;
+}
+
+article {
+  margin: 80px 0;
+  max-width: 1000px;
+  width: 100%;
+}
+article h1 {
+  margin-bottom: 30px;
 }
