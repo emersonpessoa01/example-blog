@@ -1,0 +1,65 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+  color: #fff;
+  margin: 0;
+  font-family: "Lexend", "Lato";
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: #232323;
+  min-width: 180px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex; /* posicona lado a lado os elementos */
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+.brand img {
+  max-width: 76px; /*como a borda aumentou pra 4px, diminiu a imagem de 80 p/ 76 */
+  border-radius: 100px;
+  border: 4px solid #fff;
+  margin-right: 30px;
+}
+.brand div {
+  font-size: 32px;
+}
+.brand span {
+  display: block; /*para alinhar abaixo */
+  font-size: 16px;
+  color: #939393;
+}
+.nav a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px;
+  display: inline-block; /*uma linha posicionada dentro um bloco */
+}
