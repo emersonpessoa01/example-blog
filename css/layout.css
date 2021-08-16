@@ -1,0 +1,43 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+  color: #fff;
+  margin: 0;
+  font-family: "Lexend", "Lato";
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #e9e9e9;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}

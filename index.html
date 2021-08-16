@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Post - @emersonpessoa01</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -46,8 +47,50 @@
           <h1>ESLint, Prettier e GitHooks com Husky em React.js</h1>
           <h2>
             Aprenda a validar seu código antes do commit no Git usando GitHooks
-            com Husky,ESLint e Prettier em projetos React.js
+            com Husky, ESLint e Prettier em projetos React.js
           </h2>
+          <picture>
+            <source
+              media="(min-width: 680px)"
+              srcset="img/banner-post.jpg"
+              width="100%"
+            />
+            <img
+              src="img/banner-post.jpg"
+              alt="Banner do post com ícone das ferramentas"
+            />
+            <!--no img pode colocar uma imagem menor-->
+          </picture>
+          <section>
+            <p>
+              Neste post quero compartilhar como configurar o ESLint e Prettier
+              em projetos Reactjs. Validar as regras usando os Githooks com
+              Husky. Este setup vai garantir que, antes de fazer um commit,
+              nosso código seja testado. Dessa forma, evitando que o código ruim
+              ou mal formatado seja enviado em um pull-request para nosso
+              repositório Git.
+            </p>
+            <p>
+              O foco aqui será o setup do ESLint, Prettier e Husky em uma
+              aplicação Reactjs. Mas, os mesmos princípios podem ser aplicados
+              em outros projetos JavaScript, uma API Nodejs, como exemplo.
+            </p>
+            <h3>ESLint</h3>
+            <p>
+              Se você está começando agora a trabalhar com desenvolvimento de
+              projetos com Reactjs. Talvez, tenha percebido que JavaScript nos
+              permite escrever nossos componentes, funções e propriedades de
+              diferentes formas. No início, essa flexibilidade é ótima porque
+              conseguimos desenvolver com agilidade, porém a longo prazo isso se
+              torna um grande problema.
+            </p>
+            <p>
+              Vamos começar criando um novo projeto Reactjs, usando o template
+              Create Reactjs App. Vamos usar o NPX e depois, seguimos usando o
+              Yarn para instalar nossas dependências, execute:
+            </p>
+            <pre><code>yarn add nome-do-pacote</code></pre>
+          </section>
         </article>
       </section>
     </main>
