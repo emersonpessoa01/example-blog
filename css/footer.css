@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer section {
+  background-color: #353535;
+  border-radius: 10px;
+  padding: 30px 15px;
+  margin-bottom: 30px;
+}
+
+footer .container {
+  max-width: 820px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid; /*alinhamento lado a lado */
+  grid-template-columns: repeat(2, 1fr); /*2 colunas com 25% de width */
+}
