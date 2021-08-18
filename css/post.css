@@ -11,6 +11,9 @@ article h1 {
 article h2 {
   margin-bottom: 40px;
   color: #d8d8d8;
+  font-weight: 400;
+  font-family: "Lexend Deca", sans-serif;
+
 }
 
 article h3 {

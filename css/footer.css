@@ -21,3 +21,26 @@ footer .container {
   display: grid; /*alinhamento lado a lado */
   grid-template-columns: repeat(2, 1fr); /*2 colunas com 25% de width */
 }
+
+footer ul {
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  /*grid-row-gap: 10px; substitui a propriedade margin*/
+}
+
+footer .categories ul {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+footer a {
+  color: #fff;
+  line-height: 32px;
+}
+
+footer h4{
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
