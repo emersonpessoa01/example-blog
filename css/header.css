@@ -30,7 +30,6 @@ header section {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 700;
   justify-content: center;
-
 }
 
 .brand span {
@@ -47,4 +46,12 @@ nav a {
   font-weight: 500;
   padding: 15px;
   display: inline-block; /*uma linha posicionada dentro um bloco */
+}
+
+nav a:hover {
+  border-bottom: 2px solid #d3d3d3;
+}
+
+nav .about {
+  border-bottom: 2px solid #6d5d5d;
 }
