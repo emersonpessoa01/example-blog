@@ -1,4 +1,5 @@
 html {
+  scroll-behavior: smooth; /* suavizar na página de rolagem */
   font-size: 16px;
   box-sizing: border-box;
 }
@@ -65,4 +66,11 @@ pre {
 
 main {
   display: flex;
+}
+
+@media screen and (max-width: 978px) {
+  section nav {
+    width: 100%;
+    display: none;
+  }
 }

@@ -1,5 +1,6 @@
 header {
-  background-color: #232323;
+  /* background-color: #232323; */
+  background-color: #0f5866;
   min-height: 180px;
   border-bottom: 1px solid #d3d3d3;
   box-shadow: 0 10px 25px rgba(229, 235, 240, 0.2);
@@ -48,10 +49,11 @@ nav a {
   display: inline-block; /*uma linha posicionada dentro um bloco */
 }
 
-nav a:hover {
+nav a:hover, a:focus {
   border-bottom: 2px solid #d3d3d3;
 }
 
 nav .about {
-  border-bottom: 2px solid #6d5d5d;
+  /* border-bottom: 2px solid #6d5d5d; */
+  border-bottom: 2px solid #939393;
 }
